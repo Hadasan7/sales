@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:paddingTop="150dp"
+        android:textSize="20sp"
+        android:id="@+id/Kosong_Title"
+        android:textColor="@color/colorHint"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/data_kosong"
+        android:layout_margin="5dp"/>
+    <TextView
+
+        android:layout_margin="5dp"
+        android:layout_below="@id/Kosong_Title"
+        android:textSize="14sp"
+        android:id="@+id/Kosong_Diskrip"
+        android:textColor="@color/colorHint"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/data_kosong"/>
+</RelativeLayout>

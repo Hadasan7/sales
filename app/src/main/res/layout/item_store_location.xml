@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/TVstoreId"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:visibility="invisible"
+            tools:ignore="Suspicious0dp" />
+
+        <TextView
+            android:id="@+id/TVstoreName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toko_abadi_jaya"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TVaddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/oxygen"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/TVtimestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stock"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TVlocation"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+</RelativeLayout>
